@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     function updateDateTime() {
-        const fecha = document.querySelector('.jumbotron h2');
+        const fecha = document.querySelector('#fecha h2');
         const tiempo = document.querySelector('.container h3');
 
         const actual = new Date();
